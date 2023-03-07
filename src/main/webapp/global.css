@@ -1,0 +1,122 @@
+body {
+    background-image: url("money.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+    color: #5557A2;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    background: #EF8354;
+    color: #EFEFD0;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #5557A2;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.4);
+    transform: translateY(-2px);
+}
+label {
+    display: inline-block;
+    width: 12%;
+    text-align: end;
+}
+input {
+    display: inline-block;
+    width: 15%;
+    text-align: start;
+}
+.data {
+    display: inline-block;
+    width: 15%;
+    text-align: start;
+}
+
+.content-form {
+    width: 80%;
+    height: 80%;
+    margin: 4% auto auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    width: 80%;
+    height: 80%;
+    margin: 4% auto auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tab {
+    width: 80%;
+    overflow: hidden;
+    margin: 50px auto auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+
+}
+.tab button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+    color: #5557A2;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: none;
+}
+.tab button:hover {
+    background-color: rgba(85, 87, 162, 0.72);
+    color: white;
+}
+.tab button.active {
+    background-color: rgba(85, 87, 162, 0.8);
+    color: white;
+}
+.tabcontent {
+    width: 100%;
+    margin: auto;
+    display: none;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.tabcontent h2 {
+    margin-top: 0;
+}
+.card {
+    width: 80%;
+    margin: 4% auto auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
